@@ -21,7 +21,7 @@ class MoneyTransferTest {
         dashboardPage.addMoneyToFirstCard();
         var moneyTransferPage = new MoneyTransferPage();
         var transferInfo = DataHelper.getOtherTransferCard();
-        var amount = 1000;
+        var amount = 200;
         var transferPage = moneyTransferPage.transferMoney(transferInfo, String.valueOf(amount));
         var expectedFirstCardBalance = firstCardBalance + amount;
         var expectedSecondCardBalance = secondCardBalance - amount;
@@ -44,7 +44,7 @@ class MoneyTransferTest {
         dashboardPage.addMoneyToSecondCard();
         var moneyTransferPage = new MoneyTransferPage();
         var transferInfo = DataHelper.getTransferCard();
-        var amount = 1000;
+        var amount = 200;
         var transferPage = moneyTransferPage.transferMoney(transferInfo, String.valueOf(amount));
         var expectedFirstCardBalance = firstCardBalance - amount;
         var expectedSecondCardBalance = secondCardBalance + amount;
