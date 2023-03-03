@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/0obw9y2tg36ex1pc?svg=true)](https://ci.appveyor.com/project/MargaritkaM/dz21bdd-page-object)
 
-## Задача №1: Page Object's
+## Задача: Page Object's
 
 Вам необходимо добить тестирование функции перевода с карты на карту. Разработчики пока реализовали возможность перевода только между своими картами, но уже хотят, чтобы вы всё протестировали.
 
